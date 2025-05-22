@@ -38,8 +38,7 @@ class Table implements Comparable<Table> { //implement comparable which gives th
 	}
 	
 	@Override 
-	public int compareTo(Table table)
-	{
+	public int compareTo(Table table) {
 		//positive when this.volume() is greater than table.volume()
 		//zero when this.volume() is the same as table.volume()
 		//negative when this.volume() is less than table.volume()
